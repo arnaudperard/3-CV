@@ -5,14 +5,53 @@
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    width: 960px;
-    
+    background-color: #246782;
+
+   
 
 
 }
 
 .personnel{
+    color: #ffffff;
+    
 
-    background-color: #246782;
+    
 
+}
+
+.coordonnee{
+    background-color: #89c0cd;
+
+
+}
+
+.competences{
+    background-color: #89c0cd;
+
+
+}
+
+.formation{
+    background-color:  #ffffff;
+
+
+}
+
+.langue{
+    background-color: #89c0cd;
+
+
+}
+
+.icon{
+    color: hsl(0, 0%, 35%);
+    background-color: #ffffff;
+
+
+}
+
+@media(max-width: 767px)
+{
+/* Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur smartphone */
 }
