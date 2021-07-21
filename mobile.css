@@ -1,6 +1,6 @@
 /* mobile first */
 
-
+/* personnel ________________________________________________________________________ */
 h4{
     font-size: 30px;
 }
@@ -13,9 +13,7 @@ h4{
     background: linear-gradient(#5db7ca, #083b5a);
     display: flex;
     justify-content: right;
-    flex-direction: column;
-
-   
+    flex-direction: column; 
 
 }
 
@@ -45,6 +43,20 @@ h4{
     border-bottom-left-radius: 10px;
     padding-left: 30px;
 }
+
+.coordonnee_2{
+
+    padding-top: 10px;
+    display: flex;
+
+}
+
+.mail_tel{
+
+    padding-left: 5px;
+}
+
+
 .competences{
     padding-top: 30px;
     display: flex;
@@ -60,6 +72,11 @@ h4{
     border-bottom-left-radius: 10px;
 
 
+}
+.competence_texte{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .formation{
@@ -90,6 +107,9 @@ h4{
 .icon{
     color: hsl(0, 0%, 35%);
     background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
 
@@ -106,6 +126,43 @@ h4{
 
 }
 
+.icon-image_titre{
+
+    display: flex;
+}
+
+/* utilisation de id pour le lettrage ________________________________________*/
+
+#adobe{
+    width: 220px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#os{
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#web{
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* insertion des Icons __________________________________________________________*/
+
 .icon_image{
 
     display: flex;
@@ -117,6 +174,7 @@ h4{
     width: 200px;
     height: 200px;
     padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
 
@@ -154,11 +212,28 @@ h4{
    
 }
 
+/* barre verticale ________________________________________________________*/
+#redline{
+        width:2px;
+        height:200px;
+        background-color:#7c7c7c;
+                 
+        }
+
+#whiteline{
+    width:2px;
+    height:30px;
+    background-color:#ffffff;
+                     
+            }
+
+        /*_________________________________________________________________*/
 .icon_image_apli{
 
     width: 100px;
     height: 200px;
     padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
 
@@ -205,6 +280,8 @@ h4{
     background-color: green;
    
 }
+
+/* expérience ____________________________________________________________________*/
 
 @media(max-width: 767px)
 {
