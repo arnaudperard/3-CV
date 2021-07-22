@@ -1,14 +1,51 @@
 /* mobile first */
 
+
+
 /* personnel ________________________________________________________________________ */
 h4{
     font-size: 30px;
 }
 
+.p1{ 
+    font-size: 30px;
+    line-height: 60px;    
+}
+.p2{ 
+
+    font-size: 60px;
+    padding-left: 20px;
+      
+}
+.p3{ 
+
+    font-size: 30px;
+    margin-top: -60px;
+    padding-left: 20px;
+   
+}
+
+.p_formation_titre{
+
+    font-size: 25px;
+    color: blue;
+}
+.p_text_langue{
+
+    padding-left: 40px;
+}
+
+body{
+    
+    padding: 0px;
+    margin: 0px;
+}
 .post{
 
+
+
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 30px;
     width: 100%;
     background: linear-gradient(#5db7ca, #083b5a);
     display: flex;
@@ -26,19 +63,64 @@ h4{
        
 
 }
+.adresse{
+
+    display: flex;
+}
+
+.adresse_line{
+    background-color: white;
+    width: 3px;
+    height: 128px;
+    margin-top: 72px;
+}
+
+.adresse_text{
+}
+
 
 .coordonnee{
     
     padding-left: 30px;
-    
     display: flex;
     justify-content: flex-end;
 
 }
+
+.coordonnee_icon{
+
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.Coordonnee_icon1{
+
+    background-image: url(image/mail.png);
+    background-size: 52px;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.Coordonnee_icon2{
+
+    background-image: url(image/phone.png);
+    background-size: 52px;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+
 .coordonnee_1{
     background-color: #89c0cd;
     width: 400px;
-    height: 50px;
+    height: 120px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding-left: 30px;
@@ -51,9 +133,23 @@ h4{
 
 }
 
+#p-coor{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+
 .mail_tel{
 
-    padding-left: 5px;
+    margin-top: -40px;
+    padding-left: 10px;
+    display: flex;
+
+}
+
+.Mail_text{
+
 }
 
 
@@ -87,7 +183,8 @@ h4{
 }
 
 .langue{
-
+    
+    width: 100%;
     padding-top: 30px;
     display: flex;
     justify-content: flex-end;
@@ -104,6 +201,29 @@ h4{
 
 }
 
+.logiciel{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.logiciel1{
+    background-color: #89c0cd;
+    width: 400px;
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+.logiciel_texte{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .icon{
     color: hsl(0, 0%, 35%);
     background-color: white;
@@ -117,11 +237,15 @@ h4{
 }
 
 .icon1{
+
     color: hsl(0, 0%, 35%);
     background-color: #ffffff;
     width: 400px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
 
 
 }
@@ -171,6 +295,7 @@ h4{
 
 .icon_image_dessin{
 
+    
     width: 200px;
     height: 200px;
     padding-left: 10px;
@@ -182,33 +307,41 @@ h4{
 
 .icon_image1{
 
+    background-image: url(image/xd.png);
+    background-size: 100px;
     width: 100px;
     height: 100px;
-    background-color: black;
+    
    
 }
 
 .icon_image2{
 
+    background-image: url(Image/indesign.png);
+    background-size: 100px;
     width: 100px;
     height: 100px;
-    background-color: red;
+    
    
 }
 
 .icon_image3{
 
+    background-image: url(Image/illustrator.png);
+    background-size: 100px;
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    
    
 }
 
 .icon_image4{
 
+    background-image: url(Image/toshop.png);
+    background-size: 100px;
     width: 100px;
     height: 100px;
-    background-color: green;
+    
    
 }
 
@@ -222,10 +355,18 @@ h4{
 
 #whiteline{
     width:2px;
-    height:30px;
+    height:100px;
     background-color:#ffffff;
                      
             }
+#whiteline2{
+    width:3px;
+    height:30px;
+    background-color:#ffffff;
+   
+   
+                                 
+                        }
 
         /*_________________________________________________________________*/
 .icon_image_apli{
@@ -241,22 +382,27 @@ h4{
 
 .icon_apli1{
 
+    background-image: url(Image/mint.png);
+    background-size: 110px;
     width: 100px;
     height: 100px;
-    background-color: black;
+    
    
 } 
 
 .icon_apli2{
 
+    background-image: url(Image/windows.png);
+    background-size: 100px;
     width: 100px;
     height: 100px;
-    background-color: red;
+    
    
 }
 
 .icon_image_web{
 
+    
     width: 100px;
     height: 200px;
     padding-left: 10px;
@@ -267,23 +413,98 @@ h4{
 
 .icon_web1{
 
+    background-image: url(Image/html.png);
+    background-size: 90px;
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    
    
 } 
 
 .icon_web2{
 
+    background-image: url(Image/css.png);
+    background-size: 90px;
     width: 100px;
     height: 100px;
-    background-color: green;
+    
    
+}
+
+.personnalite{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.personnalite1{
+    background-color: #89c0cd;
+    width: 400px;
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+.personnalite_texte{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* expérience ____________________________________________________________________*/
 
+.list{
+    width: 600px;
+    height: 300px;
+
+    display: flex;
+    
+}
+
+.list_left{
+ width: 200px;
+ height: 200px;
+ background-color: brown;
+}
+
+.list_barre{
+    width: 5px;
+    height: 60px;
+    background-color: white;
+
+}
+.list_right{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 767px)
 {
-/* Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur smartphone */
+    
+.post{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    background: linear-gradient(#5db7ca, #083b5a);
+    display: flex;
+    justify-content: right;
+    flex-direction: column; 
+
+}
+
 }
