@@ -1,48 +1,27 @@
-/* mobile first */
-
-
 
 /* personnel ________________________________________________________________________ */
-h4{
-    font-size: 30px;
-}
 
-.p1{ 
-    font-size: 30px;
-    line-height: 60px;    
-}
-.p2{ 
+body{ padding: 0px; margin: 0px; }
 
-    font-size: 60px;
-    padding-left: 20px;
-      
-}
-.p3{ 
+h4{ font-size: 30px; }
 
-    font-size: 30px;
-    margin-top: -60px;
-    padding-left: 20px;
-   
-}
+.p1{ font-size: 30px; line-height: 60px; }
+.p2{ font-size: 60px; padding-left: 20px; }
+.p3{ font-size: 30px; margin-top: -60px; padding-left: 20px; }
 
-.p_formation_titre{
-
-    font-size: 25px;
-    color: blue;
-}
-.p_text_langue{
-
-    padding-left: 40px;
-}
-
-body{
+    .p_formation_titre{ font-family: Arial, Helvetica, sans-serif; font-size: 35px; 
+                    color: #083b5a; }
+    .contenu_formation_titre{ font-family: Arial, Helvetica, sans-serif; text: bold;
+                              color: rgb(20, 20, 20); }
     
-    padding: 0px;
-    margin: 0px;
-}
+    .contenu_formation_titre_1{ font-family: Arial, Helvetica, sans-serif; text: bold;
+                                margin-top: -5px; color: rgb(20, 20, 20); }
+
+    .p_formation_contenu{ color: rgb(87, 87, 87); }
+    
+    .p_text_langue{ padding-left: 40px; }
+
 .post{
-
-
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -55,83 +34,34 @@ body{
 }
 
 
-.personnel{
-    color: #ffffff;
+.personnel{ padding-left: 30px; padding-top: 100px;
+            color: #ffffff; }
+
+.adresse{ display: flex; }
+
+    .adresse_line{ background-color: white; width: 3px; height: 128px;
+               margin-top: 72px;
+               }
+
+
+.coordonnee{ padding-left: 30px; display: flex; justify-content: flex-end; }
     
-    padding-left: 30px;
-    padding-top: 100px;
-       
+    .coordonnee_icon{ padding-right: 10px; display: flex; flex-direction: column; }
 
-}
-.adresse{
-
-    display: flex;
-}
-
-.adresse_line{
-    background-color: white;
-    width: 3px;
-    height: 128px;
-    margin-top: 72px;
-}
-
-.adresse_text{
-}
-
-
-.coordonnee{
+        .Coordonnee_icon1{ background-image: url(image/mail.png); background-size: 52px;
+                           width: 50px; height: 50px;
+                           }
     
-    padding-left: 30px;
-    display: flex;
-    justify-content: flex-end;
+        .Coordonnee_icon2{ background-image: url(image/phone.png); background-size: 52px;
+                           width: 50px; height: 50px;
+                           }
 
-}
+        .coordonnee_1{ background-color: #89c0cd; width: 400px; height: 120px;
+                       border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+                       padding-left: 30px;
+                       }
 
-.coordonnee_icon{
-
-    padding-right: 10px;
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.Coordonnee_icon1{
-
-    background-image: url(image/mail.png);
-    background-size: 52px;
-    width: 50px;
-    height: 50px;
-
-
-}
-
-.Coordonnee_icon2{
-
-    background-image: url(image/phone.png);
-    background-size: 52px;
-    width: 50px;
-    height: 50px;
-
-
-}
-
-
-.coordonnee_1{
-    background-color: #89c0cd;
-    width: 400px;
-    height: 120px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding-left: 30px;
-}
-
-.coordonnee_2{
-
-    padding-top: 10px;
-    display: flex;
-
-}
+        .coordonnee_2{ padding-top: 10px; display: flex; }
 
 #p-coor{
 
@@ -153,76 +83,23 @@ body{
 }
 
 
-.competences{
-    padding-top: 30px;
-    display: flex;
-    justify-content: flex-end;
-
-
-}
-.competences1{
-    background-color: #89c0cd;
-    width: 400px;
-    padding-left: 20px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-
-}
-.competence_texte{
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.formation{
-    background-color:  #ffffff;
+.competences{ width: 100%; padding-top: 30px; display: flex;
+              justify-content: flex-end;
+              }
     
-
-
-}
-
-.langue{
+    .competences1{ background-color: #89c0cd; width: 400px; padding-left: 20px;
+                   border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+                   }
     
-    width: 100%;
-    padding-top: 30px;
-    display: flex;
-    justify-content: flex-end;
+    .competence_texte{ padding-top: 5px; padding-bottom: 5px; }
 
-}
+.formation{ background-color:  #ffffff; }
 
-.langue1{
-
-    background-color: #89c0cd;
-    width: 400px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+.logiciel{ padding-top: 30px; margin-bottom: 20px; display: flex;
+           justify-content: flex-end;
+           }
 
 
-}
-
-.logiciel{
-    padding-top: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: flex-end;
-
-
-}
-.logiciel1{
-    background-color: #89c0cd;
-    width: 400px;
-    padding-left: 20px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-
-}
-.logiciel_texte{
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
 .icon{
     color: hsl(0, 0%, 35%);
@@ -250,261 +127,205 @@ body{
 
 }
 
-.icon-image_titre{
-
-    display: flex;
-}
+.icon-image_titre{ display: flex; justify-content: space-between;}
 
 /* utilisation de id pour le lettrage ________________________________________*/
 
-#adobe{
-    width: 220px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
+#adobe{ text-align: center; width: 220px; padding-left: 40px;
+        padding-bottom: 10px; padding-top: 10px;
+        }
 
-}
+#os{ text-align: center; width: 100px; padding-left: 20px;
+     padding-bottom: 10px; padding-top: 10px;
+     }
 
-#os{
-    width: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    
-
-}
-
-#web{
-    width: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-
-}
+#web{ text-align: center; width: 100px; padding-left: 10px;
+      padding-bottom: 10px; padding-top: 10px;
+      }
 
 /* insertion des Icons __________________________________________________________*/
 
-.icon_image{
+.icon_image{ display: flex; }
 
-    display: flex;
+    .icon_image_dessin{ width: 200px; height: 200px; padding-left: 10px;
+                        padding-right: 10px; display: flex;
+                        flex-wrap: wrap;
+                      }
 
-}
+        .icon_image1{ background-image: url(image/xd.png); background-size: 100px;
+                      width: 100px; height: 100px;
+                    }
 
-.icon_image_dessin{
+        .icon_image2{ background-image: url(Image/indesign.png); background-size: 100px;
+                      width: 100px; height: 100px;
+                    }
 
-    
-    width: 200px;
-    height: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-wrap: wrap;
+        .icon_image3{ background-image: url(Image/illustrator.png); background-size: 100px;
+                      width: 100px; height: 100px;
+                    }
 
-}
+        .icon_image4{ background-image: url(Image/toshop.png); background-size: 100px;
+                      width: 100px; height: 100px;
+                    }
 
-.icon_image1{
-
-    background-image: url(image/xd.png);
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
-    
-   
-}
-
-.icon_image2{
-
-    background-image: url(Image/indesign.png);
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
-    
-   
-}
-
-.icon_image3{
-
-    background-image: url(Image/illustrator.png);
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
-    
-   
-}
-
-.icon_image4{
-
-    background-image: url(Image/toshop.png);
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
-    
-   
-}
-
-/* barre verticale ________________________________________________________*/
-#redline{
-        width:2px;
-        height:200px;
-        background-color:#7c7c7c;
-                 
-        }
-
-#whiteline{
-    width:2px;
-    height:100px;
-    background-color:#ffffff;
-                     
-            }
-#whiteline2{
-    width:3px;
-    height:30px;
-    background-color:#ffffff;
-   
-   
-                                 
-                        }
+        /* barre verticale ________________________________________________________*/
+        
+        #redline{ width:2px; height:200px; background-color:#7c7c7c; }
+        #whiteline{ width:2px; height:100px; background-color:#ffffff;}
+        #whiteline2{ width:3px; height:30px; background-color:#ffffff;}
 
         /*_________________________________________________________________*/
-.icon_image_apli{
 
-    width: 100px;
-    height: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-wrap: wrap;
+    .icon_image_apli{ width: 100px; height: 200px; padding-left: 10px;
+                      padding-right: 10px; display: flex; flex-wrap: wrap;
+                    }
+
+        .icon_apli1{ background-image: url(Image/mint.png); background-size: 110px;
+                     width: 100px; height: 100px;
+                   } 
+
+        .icon_apli2{ background-image: url(Image/windows.png); background-size: 100px;
+                     width: 100px; height: 100px;
+                   }
+
+    .icon_image_web{ width: 100px; height: 200px; padding-left: 10px;
+                     display: flex; flex-wrap: wrap;
+                   }
+
+        .icon_web1{ background-image: url(Image/html.png); background-size: 90px;
+                    width: 100px; height: 100px;
+                  } 
+
+        .icon_web2{ background-image: url(Image/css.png); background-size: 90px;
+                    width: 100px; height: 100px;
+                  }
+
+.personnalite{ padding-top: 30px; margin-bottom: 20px;
+               display: flex; justify-content: flex-end;
+             }
+
+
+
+/* _______________________expérience _____________________________________*/
+
+.liste{ width: 100%; height: 300px; padding-top: 20px; padding-left: 30px; 
+        display: flex; }
+    .liste_left{ width: 200px; height: 200px; }
+    .liste_barre{ width: 2px; height: 80px; background-color: white; }
+    .liste_right{ padding-left: 35PX; }
+
+/* _______________________ deco __________________________*/
+
+.deco{ display: flex;}
+.box1{
+
+    width: 30px;
+    background: linear-gradient(#5db7ca, #083b5a); display: flex;
+    justify-content: flex-start; 
+    padding-top: 400px;
+
 
 }
 
-.icon_apli1{
+/*.triangle{
+	width:20px;
+	height:1px;
+	border:1px solid #069;
+	border-color:transparent transparent #069 transparent;
+	border-width:100px;
+} */
 
-    background-image: url(Image/mint.png);
-    background-size: 110px;
-    width: 100px;
-    height: 100px;
-    
+.f_verticale_1{
+    width: 20px;
+    height: 100%;
+    padding-top: 400px;
+    background-color: cornsilk;
    
-} 
-
-.icon_apli2{
-
-    background-image: url(Image/windows.png);
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
-    
+   
    
 }
 
-.icon_image_web{
+.box2{
 
-    
-    width: 100px;
-    height: 200px;
-    padding-left: 10px;
+    width: 30px;
+    background-color: blueviolet;
+}
+/* _______________________ Formation __________________________*/
+.formation{
+
+    font-family: 'Roboto', sans-serif;
+        /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 20px;
+    width: 100%;
+    padding-left: 25px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: right;
+    flex-direction: column; 
+}
+ /*______________________ DIV Titre __________________________ */
 
+.formation{
+
+    /*background-color: rgb(170, 170, 170);*/
 }
 
-.icon_web1{
+.formation_titre{ display: flex; align-items: flex-end; padding-top: 20px;}
+    .formation_titre_1{ width: 300px; align-items: flex-end;}
+    .formation_titre_2{ width: 280px; text-align: center; }
+    .p_formation_titre_box{ width: 100%; height: 3px; margin-left: 10px; margin-bottom: 44px; 
+                            background-color: #083b5a;}
 
-    background-image: url(Image/html.png);
-    background-size: 90px;
-    width: 100px;
-    height: 100px;
+    .contenu_formation_contenu{ width: 400px; text: justify; padding-left: 50px;}
+
+/*_________________________________________________________    
+ _____________________ MOBILE ______________________________
+ __________________________________________________________*/
+ @media(min-width: 300px)
+
+body{ 
+    display: none;
+}
     
-   
-} 
-
-.icon_web2{
-
-    background-image: url(Image/css.png);
-    background-size: 90px;
-    width: 100px;
-    height: 100px;
-    
-   
+.deco{
+    display none;
 }
-
-.personnalite{
-    padding-top: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: flex-end;
-
-
-}
-
-.personnalite1{
-    background-color: #89c0cd;
-    width: 400px;
-    padding-left: 20px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-
-}
-.personnalite_texte{
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-/* expérience ____________________________________________________________________*/
-
-.list{
-    width: 600px;
-    height: 300px;
-
-    display: flex;
-    
-}
-
-.list_left{
- width: 200px;
- height: 200px;
- background-color: brown;
-}
-
-.list_barre{
-    width: 5px;
-    height: 60px;
-    background-color: white;
-
-}
-.list_right{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 767px)
-{
-    
 .post{
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     width: 100%;
     background: linear-gradient(#5db7ca, #083b5a);
-    display: flex;
     justify-content: right;
     flex-direction: column; 
 
 }
 
+/*_________________________________________________________    
+ _____________________ TABLETTE ______________________________
+ __________________________________________________________*/
+
+@media(min-width: 768px) and (max-width: 1920px)
+
+{
+    body{
+
+        width: 100%;
+        display: flex;
+
+       
+
+    }
+
+    .post{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        width: 100%;
+        background: linear-gradient(#5db7ca, #083b5a);
+        display: flex;
+        justify-content: right;
+        flex-direction: column; 
+    
+    }
 }
+ 
