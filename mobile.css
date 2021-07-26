@@ -172,6 +172,7 @@ h4{ font-size: 30px; }
         /* barre verticale ________________________________________________________*/
         
         #redline{ width:2px; height:200px; background-color:#7c7c7c; }
+        #redline1{ width:2px; height:200px; background-color:#7c7c7c; }
         #whiteline{ width:2px; height:100px; background-color:#ffffff;}
         #whiteline2{ width:3px; height:30px; background-color:#ffffff;}
 
