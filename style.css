@@ -51,19 +51,19 @@ h3{
     color: #083b5a;
 }
 
-#experiencecontenu{
+.experiencecontenu{
     padding-left: 70px;
     color: rgb(37, 37, 37);
 }
-#formationcontenu{
+.formationcontenu{
     padding-left: 70px;
     color: rgb(37, 37, 37);
 }
 
-#experiencetitre{
+.experiencetitre{
     padding-left: 10px;
 }
-#formationtitre{
+.formationtitre{
     padding-left: 10px;
 }
 
